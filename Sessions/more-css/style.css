@@ -1,6 +1,7 @@
 body, ul {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav{
     background-color:rgb(77, 78, 78);
@@ -29,6 +30,28 @@ li a:hover {background-color: black; transition: 1s;
 
 }
 nav ul{
-    width: 456px;
+    width: 480px;
     margin: 0px auto ;
 }
+.red {background-color: red;}
+    .green {background-color: green;}
+    .p30{ padding: 30px;}
+    .mt30{ margin-top: 30px;}
+    .pt40{ padding-top: 40px;}
+
+
+    main{ width: 1150px;
+    margin: 20px auto;
+    }
+    figure{ float: left}
+
+    .redtext{ color: red;
+
+    }
+    img{transition: 1s;}
+    
+    .era {float: right}
+    img:hover {
+        border-radius: 50%;
+        transition: 1s;
+    }
