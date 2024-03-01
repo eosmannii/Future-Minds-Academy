@@ -1,0 +1,225 @@
+* {
+  cursor: url(images/sunflowercursor.png), auto;
+}
+
+body {
+  background-image: url(images/sunflowerbackground.jpg);
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+}
+hr {
+  border-color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(242, 242, 159);
+  border-radius: 5px;
+  transition: background-color0.3s ease;
+}
+nav ul li a:hover {
+  background-color: rgb(249, 249, 91);
+  transition: 1s;
+}
+
+h2 {
+  text-align: center;
+}
+.profilepic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.whoIsEraOsmani {
+  background-color: rgb(242, 242, 108);
+  padding: 2rem;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.whoIsEraOsmani:hover {
+  border: 3px solid black;
+  background-color: rgb(254, 254, 105);
+}
+.Education {
+  background-color: rgb(205, 246, 109);
+  padding: 2rem;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.Education:hover {
+  background-color: rgb(195, 251, 66);
+  border: 3px solid black;
+}
+.primaryschool,
+.highschool,
+.university {
+  border: 2px solid black;
+  background-color: beige;
+  color: black;
+  border-radius: 10px;
+  text-align: left;
+  padding: 1rem;
+  margin-top: 20px;
+}
+.myskills {
+  background-color: rgb(214, 173, 69);
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 2rem;
+}
+.table1,
+.table2 {
+  font-weight: bold;
+  background-color: rgb(214, 155, 5);
+}
+.myskills:hover {
+  background-color: rgb(218, 170, 46);
+  border: 3px solid black;
+}
+.myprojects {
+  background-color: rgb(61, 146, 91);
+  width: 75%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 30px;
+}
+.myprojects:hover {
+  background-color: rgb(57, 131, 83);
+  border: 3px solid black;
+}
+.link1 {
+  background-color: rgb(217, 190, 67);
+  border-radius: 5px;
+}
+.link1:hover {
+  background-color: rgb(217, 155, 5);
+}
+.footer {
+  background-color: rgb(83, 64, 20);
+  color: white;
+
+  width: 75%;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+.project1 {
+  background-color: rgb(242, 242, 108);
+  color: black;
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.project1:hover {
+  background-color: rgb(254, 249, 91);
+  border: 3px solid black;
+}
+.project2 {
+  background-color: rgb(205, 242, 108);
+  color: black;
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.project2:hover {
+  background-color: rgb(195, 249, 91);
+  border: 3px solid black;
+}
+.project3 {
+  background-color: rgb(61, 146, 91);
+  color: black;
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.project3:hover {
+  background-color: rgb(57, 131, 83);
+  border: 3px solid black;
+}
+.footer2 {
+  background-color: rgb(83, 64, 20);
+  color: white;
+  width: 75%;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+.sendmeamessage{
+  background-color: rgb(242, 242, 108);
+  color: black;
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.sendmeamessage:hover{
+  background-color: rgb(254, 249, 91);
+  border: 3px solid black;
+}
+.connectwithme{
+  background-color: rgb(205, 242, 108);
+  color: black;
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.connectwithme:hover{
+  background-color: rgb(195, 249, 91);
+  border: 3px solid black;
+}
+.footer3{
+  background-color: rgb(83, 64, 20);
+  color: white;
+  width: 75%;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
