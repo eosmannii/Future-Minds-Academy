@@ -1,0 +1,10 @@
+.tr:nth-child(1),
+tr:nth-child(3),
+tr:nth-child(5) {
+  background-color: rgb(213, 70, 70);
+}
+.tr:nth-child(2),
+tr:nth-child(4),
+tr:nth-child(6) {
+  background-color: brown;
+}
