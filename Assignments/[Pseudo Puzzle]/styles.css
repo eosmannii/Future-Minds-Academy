@@ -1,4 +1,4 @@
 .section{ background-color: aquamarine;}
 .section:hover{ background-color: rgb(10, 116, 116) ;
  }
-.section:hover::first-letter { font-size: larger ;}
+.section:hover::first-letter { font-size: 200% ;}
