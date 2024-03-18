@@ -1,0 +1,18 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    height: 25vh;
+}
+.section:nth-child(1),
+:nth-child(3) {
+    background-color: rgb(68, 66, 66);
+    color: white;
+}
+ .h1, .h12 { text-decoration: underline;
+ font-size: 3em;}
+ hr{
+     width: 33%;
+   border: solid red 2px
+ }
