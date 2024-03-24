@@ -1,0 +1,32 @@
+.video {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.p1 {
+  padding: 20px;
+  margin: 20px;
+  border: outset color(rgb(140, 140, 140));
+  box-shadow: 2px 1px 2px 1px grey;
+  display: inline;
+}
+div > h1 {
+  position: relative;
+  top: 20px;
+}
+
+.p1 {
+  position: relative;
+}
+
+.button {
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

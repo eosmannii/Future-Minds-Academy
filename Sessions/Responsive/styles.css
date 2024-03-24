@@ -1,0 +1,15 @@
+.all-cards {
+  display: flex;
+  gap: 20px;
+}
+.all-cards img {
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+}
+.all-cards> div{
+    width: 300px;
+}
+@media screen {
+    
+}
