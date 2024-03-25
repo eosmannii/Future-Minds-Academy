@@ -1,0 +1,13 @@
+.body {
+  background-color: rgb(255, 192, 203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  border: solid black 2px;
+  background-color: yellow;
+  padding: 10px 10px;
+}
