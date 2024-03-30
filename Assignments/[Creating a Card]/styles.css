@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body { 
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cardWW {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid black;
+}
+.article {
+  border: 1px solid black;
+  width: 50%;
+  display: flex;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CardImg{
+     background-color: brown;
+    width: 300px;
+    border: 3px solid black;
+    margin: 2rem;
+}
+.wonderWoman{
+    position: relative;
+}
+.absoluteP{
+    position:absolute;
+    top: 0;
+    left: 0;
+    color: rgb(104, 8, 8);
+    font-size:bolder;
+    padding: 10px;
+}
+.h1{
+    font-size: xx-large;
+}
