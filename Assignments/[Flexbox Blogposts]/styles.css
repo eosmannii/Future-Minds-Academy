@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .aside {
+    width: 500px;
+    height: 100vh;
+    background-color: rgb(50, 50, 83);
+    padding: 30px;
+  }
+  .asideDiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+  }
+  .logIn{
+    display: inline;
+    border: 2px solid white;
+    color: white;
+  }
+  .main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  .h1t{
+    color: white;
+  }
+  .section {
+    margin-bottom: 100px; /* Add margin between sections */
+  }
+  
+  .profilePic {
+    width: 100px; /* Adjust image width as needed */
+    border-radius: 50%;
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Add margin to separate image from text */
+  }
