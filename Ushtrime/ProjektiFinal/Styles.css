@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+aside{
+    padding: 20px;
+    background-image: url(assets/images/sidebar-1.jpg);
+    background-color: hsla(0, 0%, 0%, 0.793);
+    background-blend-mode: color;
+    overflow: hidden;
+}
+.displayGrid{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+.WhiteColorText{
+    color: white;
+}
+.gap1Rem{
+    gap: 1rem; 
+}
+.ProfilePic{
+    width: 40px;
+    border-radius: 50%;
+}

@@ -1,50 +1,296 @@
-*{
-    margin: 0%;
+* {
     padding: 0%;
-}
-.body{
-    display: grid;
-    grid-template-columns: 2fr 10fr;
-    height: 100vh;
-    background-color: white;
-    
+    margin: 0%;
 }
 
-aside{
-    background-image: url("./icons/images/sidebar-1.jpg");
-    background-color: rgba(0, 0, 0, 0.3);
+body {
+    background-color: rgba(233, 229, 229, 0.445);
+    height: 100vh;
+}
+
+.gridColumnsAuto1FR {
+    grid-template-columns: auto 1fr;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+/* ASIDE */
+
+aside {
+    padding: 20px;
+    background-image: url(icons/images/sidebar-1.jpg);
+    background-color: hsla(0, 0%, 0%, 0.793);
     background-blend-mode: color;
+    overflow: hidden;
+}
+
+.overflowScroll {
+    overflow: scroll;
+}
+
+.dGrid {
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fontSize20px {
+    font-size: 20px;
+}
+
+.textColorWhite {
     color: white;
 }
 
-.active{
-    background-color: red;
-}
-.CPlogo{
-    align-items: center;
-}
-.asideLinks{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    padding: 10px 30px;
-    border-radius: 2px;
-}
-.images{
-    width: 50px;
-    border: 1px solid rgb(0, 0,0, 0);
+.imgAvatar {
+    width: 40px;
     border-radius: 50%;
 }
-.imgflags{
-    width: 15px;
-}
-.arrow{
-    width: 10px;
-}
-.firstcard{
-    display: grid;
-    grid-template-columns: auto;
+
+.gap1R {
+    gap: 1rem;
 }
 
+.GridColumnsAuto1AutoAlignItemsC {
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
 
+.padding15px {
+    padding: 15px;
+}
+
+.active {
+    margin-top: 10px;
+}
+
+.asideLink:hover:not(.logo, .active, .avatar) {
+    background-color: rgba(128, 128, 128, 0.578);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.boxShadow {
+    box-shadow: 0px 0px 7px 1px gray;
+}
+
+.circle:hover {
+    transition: 2s;
+    box-shadow: 0px 0px 10px 10px rgb(172, 168, 168);
+    cursor: pointer;
+}
+
+.dFlexAlignItemsC {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid lightgray;
+}
+
+.HeaderMenu {
+    display: none;
+}
+
+.padding15Y30Z {
+    padding: 15px 30px;
+}
+
+.dFlexSpaceBetwen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notificationsInfo {
+    background-color: red;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    right: -2px;
+    top: -4px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.notifications:hover .notificationsMSG {
+    display: block;
+}
+
+.notificationsMSG {
+    top: 10px;
+    right: 12px;
+    width: 220px;
+    display: none;
+}
+
+.notificationsMSG p {
+    padding: 10px;
+}
+
+.notificationsMSG p:hover {
+    background-color: red;
+    color: white;
+}
+
+.positionA {
+    position: absolute;
+}
+
+.positionR {
+    position: relative;
+}
+
+.backColorW {
+    background-color: white;
+}
+
+/* MAIN*/
+
+.iconsCards {
+    width: 30px;
+    height: 30px;
+    padding: 25px;
+    margin-top: -30px; 
+}
+
+.widthHeight20px {
+    width: 20px;
+    height: 20px;
+}
+
+.gridColumns1FR1FR {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridColumns1FR1FR1FR {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.padding8px {
+    padding: 8px;
+}
+
+.marginTop60px {
+    margin-top: 60px
+}
+
+.paddingTop30px {
+    padding-top: 30px;
+}
+
+.colorGray {
+    color: gray;
+}
+
+hr {
+    border: 1px solid lightgray;
+}
+
+.backColorLightGreen {
+    background-color: rgb(98, 218, 98);
+}
+
+.backColorOrange {
+    background-color: orange;
+}
+
+.backColorRed {
+    background-color: red;
+}
+
+.backColorLightBlue {
+    background-color: rgb(95, 190, 221);
+}
+
+.borderRadius5px {
+    border-radius: 5px;
+}
+
+.gap2rem {
+    gap: 2rem;
+}
+
+.ManageListingCardsImages {
+    width: 100%;
+    transform: translateY(-40px);
+}
+
+.ManageListingCardsImages:hover {
+    transition: ease .2s;
+    transform: translateY(-65px);
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.justifyContentCenter {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+
+.displayNone {
+    display: none;
+}
+
+.cardIconsContainer3:hover .displayNone {
+    display: flex;
+}
+
+/* FOOTER */
+
+a {
+    color: black;
+}
+
+/* Responsive */
+
+@media (max-width:950px) {
+    aside {
+        display: none;
+    }
+
+    .headerRight {
+        display: none;
+    }
+
+    .HeaderMenu {
+        display: block;
+    }
+
+    .container1 {
+        grid-template-columns: 1fr;
+
+    }
+
+    .container3 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:435px) {
+
+    .container2,
+    .container3 {
+        grid-template-columns: 1fr;
+    }
+}
