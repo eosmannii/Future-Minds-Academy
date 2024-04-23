@@ -1,26 +1,278 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-aside{
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(233, 229, 229, 0.445);
+}
+
+.GridColumnsAuto1Fr {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+aside {
     padding: 20px;
-    background-image: url(assets/images/sidebar-1.jpg);
+    background-image: url(./assets/images/sidebar-1.jpg);
     background-color: hsla(0, 0%, 0%, 0.793);
     background-blend-mode: color;
     overflow: hidden;
 }
-.displayGrid{
+
+.myProfilePic {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.whiteLetters {
+    color: white;
+}
+
+.padding15px {
+    padding: 15px;
+}
+
+.gridAuto1FrAuto {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
 }
-.WhiteColorText{
+
+.gap1R {
+    gap: 1rem;
+}
+
+.gap2R {
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bgRed {
+    background-color: rgba(248, 75, 17, 0.885);
+    border-radius: 5px;
+}
+
+.margin15px {
+    margin-top: 15px;
+}
+
+.ALink:hover:not(.logo, .avatar, .active) {
+    background-color: rgba(128, 128, 128, 0.578);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.dFlexSpaceBetween {
+    justify-content: space-between;
+}
+
+.padding30px {
+    padding: 15px 30px;
+}
+
+.alignItemsC {
+    align-items: center;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.circle:hover {
+    box-shadow: 0px 0px 10px 10px gray;
+    transition: 2s;
+}
+
+input {
+    border: none;
+    border-bottom: solid grey 2px;
+    background-color: transparent;
+    outline: none;
+}
+
+input:focus {
+    border-bottom: solid rgb(57, 10, 57) 2px;
+    transition: 2s;
+}
+
+.Notifications5 {
+    background-color: red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    color: white;
+    border: white solid 2px;
+    top: -1px;
+    right: -4px;
+}
+
+.hoverNotifications:hover .Notifications {
+    display: block;
+}
+
+.positionA {
+    position: absolute;
+}
+
+.positionR {
+    position: relative;
+}
+
+.Notifications {
+    width: 250px;
+    background-color: white;
+    top: 10px;
+    right: 12px;
+}
+
+.Notifications p {
+    padding: 15px;
+}
+
+.Notifications p:hover {
+    background-color: red;
     color: white;
 }
-.gap1Rem{
-    gap: 1rem; 
+
+.flags {
+    width: 15px;
 }
-.ProfilePic{
-    width: 40px;
-    border-radius: 50%;
+
+.MainIcons {
+    width: 30px;
+    height: 30px;
+    padding: 25px;
+    margin-top: -30px;
+}
+
+.borderRadius5px {
+    border-radius: 5px;
+}
+
+.backgroundC {
+    background-color: rgb(91, 159, 91);
+}
+
+.backgroundCOrange {
+    background-color: orange;
+}
+.bgColorPink{
+    background-color: rgb(160, 20, 44);
+}
+.backgroundCBlue {
+    background-color: rgb(41, 85, 195);
+}
+.boxShadow {
+    box-shadow: 0px 0px 7px 1px gray;
+}
+
+.displayGrid {
+    display: grid;
+}
+
+.padding8px {
+    padding: 8px;
+}
+
+.BgColorWhite {
+    background-color: white;
+}
+
+.MarginTop60px {
+    margin-top: 60px;
+}
+
+.MarginTop30px {
+    margin-top: 30px;
+}
+
+.GreyText {
+    color: grey;
+}
+
+.displayGrid1Fr1Fr {
+    grid-template-columns: 1fr 1fr;
+}
+
+.TextAlignCenter {
+    text-align: center;
+}
+
+.justifyContentC {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card1MG:hover .displayNone {
+    display: flex;
+    bottom: 0px;
+}
+.ManageListingsCards{
+    width: 100%;
+    transform: translateY(-40px);
+}
+.ManageListingsCards:hover{
+    transform: translateY(-60px);
+    transition: ease .3s;
+}
+.displayGrid1Fr1Fr1Fr{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ footer a {
+    text-decoration: none;
+    color: black;
+ }
+ .overflowScroll{
+    overflow: scroll;
+ }
+ @media (max-width:950px) {
+    aside {
+        display: none;
+    }
+
+    .headerRight {
+        display: none;
+    }
+
+    .HeaderMenu {
+        display: block;
+    }
+
+    .container1 {
+        grid-template-columns: 1fr;
+
+    }
+
+    .container3 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:435px) {
+
+    .container2,
+    .container3 {
+        grid-template-columns: 1fr;
+    }
 }
