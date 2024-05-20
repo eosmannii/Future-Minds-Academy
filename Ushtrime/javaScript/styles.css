@@ -1,0 +1,20 @@
+body{
+    background-image: url(flower.avif);
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgb(236, 156, 229);
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+  
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+h2{
+    font-size: 50px;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+  </head>
+
+  <body>
+    <label for="">Guess a Number betweeen 1 - 10: </label><br />
+    <input type="number" id="userNum" /><br /><br />
+    <p class="hints">Guess higher</p>
+    <button onclick="guessNumber()" >Guess</button>
+    <hr />
+    <h4 class="msg">Congratulations</h4>
+
+    <script>
+        
+      let guessedNum = Math.floor(Math.random() * 10) + 1;
+      console.log
+      const userNum = document.querySelector("#userNum");
+      const hints = document.querySelector("hints")
+
+      let guessNumber = function(){
+        if (userNum.value < guessedNum){
+            hints.textContent="Please guess higher.";
+        }
+        if(userNum > guessedNum){
+            hints.textContent = "Please guess lower: ";
+        }
+        if(userNum.value == guessedNum){
+            console.log("Congratulations");
+        }
+      }
+      
+     /* let guessedNum = Math.floor(Math.random() * 10) + 1;
+      console.log(guessedNum);
+      let userNum = prompt("Guess a number betweeen 1 - 10: ");
+
+      if (userNum < guessedNum) {
+        userNum = prompt("Please guess higher: ");
+      } else {
+         userNum = prompt("Please guess lower");
+      }
+
+      if (userNum == guessedNum) {
+        console.log("Congratulations");
+      } else {
+        console.log("You've lost");
+      } */
+    </script> 
+  </body>
+</html>
